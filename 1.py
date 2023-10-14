@@ -11,10 +11,10 @@ window=Tk()
 window.geometry("500x500")
 window.title(" STUDENT SUPPORT SYSTEM")
 
-#imge=Image.open("C:/Users/HARSHA SINGH/Desktop/Dexterix-2019/images/galaxy.jpg")
-#photo=ImageTk.PhotoImage(imge)
-#lab=Label(image=photo)
-#lab.pack()
+imge=Image.open("/images/galaxy.jpg")
+photo=ImageTk.PhotoImage(imge)
+lab=Label(image=photo)
+lab.pack()
 
 
 
@@ -30,7 +30,7 @@ def sign_up():
     window1.title("Welcome to Sign-Up Page")
     window1.geometry("500x500")
 
-    imge1 = Image.open("C:/Users/HARSHA SINGH/PycharmProjects/DBMS/signup.jpg")
+    imge1 = Image.open("/images/signup.jpg")
     photo1 = ImageTk.PhotoImage(imge1)
     lab2 = Label(window1,image=photo1)
     lab2.pack()
@@ -80,7 +80,7 @@ def login():
     window2.title("Welcome to Login Page")
     window2.geometry("500x500")
 
-    imge2 = Image.open("C:/Users/HARSHA SINGH/PycharmProjects/DBMS/signup.jpg")
+    imge2 = Image.open("/images/signup.jpg")
     photo2 = ImageTk.PhotoImage(imge2)
     lab3 = Label(window2,image=photo2)
     lab3.pack()
